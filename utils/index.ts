@@ -14,3 +14,12 @@ try {
 } catch (error) {
 	console.error(error);
 }
+
+export async function fetchCars() {
+    const headers = {
+        'X-RapidAPI-Key': 'ce2e1569e9msh74ad9015fdb1bc0p15ea7ajsn1ca3946e19b5',
+		'X-RapidAPI-Host': 'cars-by-api-ninjas.p.rapidapi.com' 
+    }
+    const response = await fetch( 'https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?model=corolla');
+
+}
