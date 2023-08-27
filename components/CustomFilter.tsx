@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CarDetails = () => {
+const CustomFilter = () => {
   return (
-    <div>CarDetails</div>
+    <div>CustomFilter</div>
   )
 }
 
-export default CarDetails
+export default CustomFilter
